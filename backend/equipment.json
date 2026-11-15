@@ -1,0 +1,440 @@
+{
+  "meta": {
+    "dataset": "Abandoned but Not Forgotten – NASA equipment records",
+    "version": "1.1.0",
+    "last_reviewed": "2026-11-14",
+    "conventions": {
+      "dates": "ISO 8601 (YYYY-MM-DD) in UTC unless an event note says otherwise. Example: Apollo 16 landed on 21 April 1972 UTC, which was 20 April in US time zones.",
+      "coordinates": "Planetocentric latitude (north positive) and longitude in degrees, east positive, range -180 to 180.",
+      "sols": "A sol is one Martian solar day, about 24 hours 40 minutes."
+    },
+    "status_definitions": {
+      "left_on_surface": "Hardware deliberately left behind after a crewed mission (for example the Apollo rovers).",
+      "mission_ended": "A robotic mission is over and the hardware remains where it stopped. This is not the same as being deliberately abandoned.",
+      "lost_contact": "No signal has been received, but NASA has not declared the mission over.",
+      "operational": "Still working or still being operated. Never described as abandoned."
+    },
+    "disclaimer": "Records are compiled from the NASA sources listed on each record. Where a source link is marked checked=false it has not been opened and confirmed yet. Verify and expand records before public release."
+  },
+  "equipment": [
+    {
+      "id": "apollo-15-lrv",
+      "name": "Apollo 15 Lunar Roving Vehicle",
+      "planet": "Moon",
+      "mission": "Apollo 15",
+      "object_type": "Lunar rover",
+      "category": "rover",
+      "year": 1971,
+      "location": "Hadley–Apennine region, near Hadley Rille",
+      "coordinates": {
+        "lat": 26.13174,
+        "lon_east": 3.63803,
+        "kind": "rover_position",
+        "precision": "Derived from Lunar Reconnaissance Orbiter images; accurate to a few metres.",
+        "source_name": "LROC (Arizona State University) – Coordinates of Human Features, 2016 update",
+        "source_url": "https://www.lroc.asu.edu/images/938"
+      },
+      "status": "left_on_surface",
+      "status_label": "Left on the Moon by the Apollo 15 crew",
+      "operational": false,
+      "status_note": "The rover was used during Apollo 15 surface traverses and was left parked on the Moon when the crew lifted off on 2 August 1971.",
+      "description": "The first crewed vehicle driven on the Moon. It extended the astronauts' range for geological exploration and sample collection.",
+      "story": "Apollo 15's rover helped the crew travel farther across the lunar surface and investigate terrain around Hadley Rille. Over the mission it covered about 27.9 km. After the mission, it remained where the astronauts parked it.",
+      "key_figures": {
+        "distance_driven_km": 27.9
+      },
+      "timeline": [
+        {
+          "date": "1971-07-30",
+          "kind": "landing",
+          "event": "Apollo 15 lands and the crew deploys the rover."
+        },
+        {
+          "date": "1971-08-02",
+          "kind": "departure",
+          "event": "The crew lifts off from the Moon, leaving the rover parked on the surface."
+        }
+      ],
+      "sources": [
+        {
+          "name": "NASA NSSDCA – The Apollo Lunar Roving Vehicle",
+          "url": "https://nssdc.gsfc.nasa.gov/planetary/lunar/apollo_lrv.html",
+          "checked": true
+        },
+        {
+          "name": "NASA NSSDCA – The Apollo Program (mission dates)",
+          "url": "https://nssdc.gsfc.nasa.gov/planetary/lunar/apollo.html",
+          "checked": true
+        },
+        {
+          "name": "NASA SP-4214 – Where No Man Has Gone Before, Appendix (surface times)",
+          "url": "https://apolloexplorer.co.uk/books/sp-4214/app5.html",
+          "checked": true
+        },
+        {
+          "name": "LROC (Arizona State University) – Coordinates of Human Features, 2016 update",
+          "url": "https://www.lroc.asu.edu/images/938",
+          "checked": true
+        }
+      ]
+    },
+    {
+      "id": "apollo-16-lrv",
+      "name": "Apollo 16 Lunar Roving Vehicle",
+      "planet": "Moon",
+      "mission": "Apollo 16",
+      "object_type": "Lunar rover",
+      "category": "rover",
+      "year": 1972,
+      "location": "Descartes Highlands",
+      "coordinates": {
+        "lat": -8.9729,
+        "lon_east": 15.5037,
+        "kind": "rover_position",
+        "precision": "Derived from Lunar Reconnaissance Orbiter images; accurate to a few metres.",
+        "source_name": "LROC (Arizona State University) – Coordinates of Human Features, 2016 update",
+        "source_url": "https://www.lroc.asu.edu/images/938"
+      },
+      "status": "left_on_surface",
+      "status_label": "Left on the Moon by the Apollo 16 crew",
+      "operational": false,
+      "status_note": "The rover was used during Apollo 16 surface traverses and was left parked on the Moon when the crew lifted off on 24 April 1972 (UTC).",
+      "description": "The second Apollo Lunar Roving Vehicle, used by John Young and Charles Duke to explore the Descartes Highlands.",
+      "story": "The rover enabled the Apollo 16 crew to cover more ground and collect lunar samples across the highlands, driving about 26.7 km in total. It remains a human-made artifact on the lunar surface.",
+      "key_figures": {
+        "distance_driven_km": 26.7
+      },
+      "timeline": [
+        {
+          "date": "1972-04-21",
+          "kind": "landing",
+          "event": "Apollo 16 lands in the Descartes Highlands (21 April UTC; 20 April in US time zones) and the crew deploys the rover."
+        },
+        {
+          "date": "1972-04-24",
+          "kind": "departure",
+          "event": "The crew lifts off from the Moon, leaving the rover parked on the surface."
+        }
+      ],
+      "sources": [
+        {
+          "name": "NASA NSSDCA – The Apollo Lunar Roving Vehicle",
+          "url": "https://nssdc.gsfc.nasa.gov/planetary/lunar/apollo_lrv.html",
+          "checked": true
+        },
+        {
+          "name": "NASA NSSDCA – The Apollo Program (mission dates)",
+          "url": "https://nssdc.gsfc.nasa.gov/planetary/lunar/apollo.html",
+          "checked": true
+        },
+        {
+          "name": "NASA SP-4214 – Where No Man Has Gone Before, Appendix (surface times)",
+          "url": "https://apolloexplorer.co.uk/books/sp-4214/app5.html",
+          "checked": true
+        },
+        {
+          "name": "LROC (Arizona State University) – Coordinates of Human Features, 2016 update",
+          "url": "https://www.lroc.asu.edu/images/938",
+          "checked": true
+        }
+      ]
+    },
+    {
+      "id": "apollo-17-lrv",
+      "name": "Apollo 17 Lunar Roving Vehicle",
+      "planet": "Moon",
+      "mission": "Apollo 17",
+      "object_type": "Lunar rover",
+      "category": "rover",
+      "year": 1972,
+      "location": "Taurus–Littrow valley",
+      "coordinates": {
+        "lat": 20.1896,
+        "lon_east": 30.7769,
+        "kind": "rover_position",
+        "precision": "Derived from Lunar Reconnaissance Orbiter images; accurate to a few metres.",
+        "source_name": "LROC (Arizona State University) – Coordinates of Human Features, 2016 update",
+        "source_url": "https://www.lroc.asu.edu/images/938"
+      },
+      "status": "left_on_surface",
+      "status_label": "Left on the Moon by the Apollo 17 crew",
+      "operational": false,
+      "status_note": "The rover was used during Apollo 17 surface traverses and was left parked on the Moon when the crew lifted off on 14 December 1972 (UTC).",
+      "description": "The third Apollo Lunar Roving Vehicle, used during the final crewed Apollo lunar landing mission.",
+      "story": "The Apollo 17 rover supported the longest total driving distance of the three Apollo lunar rovers, about 35.9 km, helping the crew explore the Taurus–Littrow valley.",
+      "key_figures": {
+        "distance_driven_km": 35.9
+      },
+      "timeline": [
+        {
+          "date": "1972-12-11",
+          "kind": "landing",
+          "event": "Apollo 17 lands and the crew deploys the rover."
+        },
+        {
+          "date": "1972-12-14",
+          "kind": "departure",
+          "event": "The crew lifts off from the Moon, leaving the rover parked on the surface."
+        }
+      ],
+      "sources": [
+        {
+          "name": "NASA NSSDCA – The Apollo Lunar Roving Vehicle",
+          "url": "https://nssdc.gsfc.nasa.gov/planetary/lunar/apollo_lrv.html",
+          "checked": true
+        },
+        {
+          "name": "NASA NSSDCA – The Apollo Program (mission dates)",
+          "url": "https://nssdc.gsfc.nasa.gov/planetary/lunar/apollo.html",
+          "checked": true
+        },
+        {
+          "name": "NASA SP-4214 – Where No Man Has Gone Before, Appendix (surface times)",
+          "url": "https://apolloexplorer.co.uk/books/sp-4214/app5.html",
+          "checked": true
+        },
+        {
+          "name": "LROC (Arizona State University) – Coordinates of Human Features, 2016 update",
+          "url": "https://www.lroc.asu.edu/images/938",
+          "checked": true
+        }
+      ]
+    },
+    {
+      "id": "mars-pathfinder-lander",
+      "name": "Mars Pathfinder Lander (Carl Sagan Memorial Station)",
+      "planet": "Mars",
+      "mission": "Mars Pathfinder",
+      "object_type": "Lander",
+      "category": "lander",
+      "year": 1997,
+      "location": "Ares Vallis",
+      "coordinates": {
+        "lat": 19.13,
+        "lon_east": -33.22,
+        "kind": "landing_site",
+        "precision": "Approximate landing site in Ares Vallis; sources differ by tens of kilometres at the lowest precision.",
+        "source_name": "Wikipedia – Sojourner (rover) (landing coordinates; cross-check against NASA/USGS)",
+        "source_url": "https://en.wikipedia.org/wiki/Sojourner_(rover)"
+      },
+      "status": "mission_ended",
+      "status_label": "Mission ended — last data received 27 September 1997",
+      "operational": false,
+      "status_note": "Pathfinder's final successful data transmission was on 27 September 1997. Mission managers tried to restore communications for about five more months, and the mission was terminated on 10 March 1998.",
+      "description": "A technology-demonstration lander that delivered the Sojourner rover to the Martian surface.",
+      "story": "Pathfinder demonstrated a lower-cost way to land on Mars and deploy a rover. The lander also served as Sojourner's communication relay.",
+      "key_figures": {},
+      "timeline": [
+        {
+          "date": "1997-07-04",
+          "kind": "landing",
+          "event": "Pathfinder lands on Mars in Ares Vallis."
+        },
+        {
+          "date": "1997-09-27",
+          "kind": "last_contact",
+          "event": "Final successful data transmission from the lander."
+        },
+        {
+          "date": "1998-03-10",
+          "kind": "mission_end",
+          "event": "NASA terminates the mission after months of attempts to restore communications."
+        }
+      ],
+      "sources": [
+        {
+          "name": "NASA Science – Mars Pathfinder",
+          "url": "https://science.nasa.gov/mission/mars-pathfinder/",
+          "checked": true
+        },
+        {
+          "name": "NASA NSSDCA – Mars Pathfinder",
+          "url": "https://nssdc.gsfc.nasa.gov/planetary/mesur.html",
+          "checked": true
+        },
+        {
+          "name": "Wikipedia – Sojourner (rover) (landing coordinates; cross-check against NASA/USGS)",
+          "url": "https://en.wikipedia.org/wiki/Sojourner_(rover)",
+          "checked": false
+        }
+      ]
+    },
+    {
+      "id": "sojourner",
+      "name": "Sojourner Rover",
+      "planet": "Mars",
+      "mission": "Mars Pathfinder",
+      "object_type": "Rover",
+      "category": "rover",
+      "year": 1997,
+      "location": "Ares Vallis, near the Pathfinder lander",
+      "coordinates": {
+        "lat": 19.13,
+        "lon_east": -33.22,
+        "kind": "landing_site",
+        "precision": "Approximate landing site in Ares Vallis; sources differ by tens of kilometres at the lowest precision.",
+        "source_name": "Wikipedia – Sojourner (rover) (landing coordinates; cross-check against NASA/USGS)",
+        "source_url": "https://en.wikipedia.org/wiki/Sojourner_(rover)"
+      },
+      "status": "mission_ended",
+      "status_label": "Mission ended — contact lost with the lander on 27 September 1997",
+      "operational": false,
+      "status_note": "Sojourner could only talk to Earth through the Pathfinder lander. When the lander's final data transmission arrived on 27 September 1997 (sol 83), the rover's mission ended with it.",
+      "description": "The first wheeled rover to operate on Mars, weighing about 10.5 kg (23 lb).",
+      "story": "Designed for a seven-sol primary mission, with a possible extension to 30 sols, Sojourner kept working for 83 sols (about 85 Earth days), taking images and making measurements before communication ended. It never roamed far from the lander.",
+      "key_figures": {
+        "designed_sols": 7,
+        "sols_operated": 83,
+        "mass_kg": 10.5
+      },
+      "timeline": [
+        {
+          "date": "1997-07-04",
+          "kind": "landing",
+          "event": "Sojourner arrives on Mars aboard the Pathfinder lander."
+        },
+        {
+          "date": "1997-07-05",
+          "kind": "deployment",
+          "event": "Sojourner is deployed and drives onto the surface."
+        },
+        {
+          "date": "1997-09-27",
+          "kind": "last_contact",
+          "event": "Last contact, via the lander, on sol 83."
+        }
+      ],
+      "sources": [
+        {
+          "name": "NASA NSSDCA – Mars Pathfinder",
+          "url": "https://nssdc.gsfc.nasa.gov/planetary/mesur.html",
+          "checked": true
+        },
+        {
+          "name": "NASA Science – Mars Pathfinder",
+          "url": "https://science.nasa.gov/mission/mars-pathfinder/",
+          "checked": true
+        },
+        {
+          "name": "Wikipedia – Sojourner (rover) (landing coordinates; cross-check against NASA/USGS)",
+          "url": "https://en.wikipedia.org/wiki/Sojourner_(rover)",
+          "checked": false
+        }
+      ]
+    },
+    {
+      "id": "spirit",
+      "name": "Spirit Rover",
+      "planet": "Mars",
+      "mission": "Mars Exploration Rover",
+      "object_type": "Rover",
+      "category": "rover",
+      "year": 2004,
+      "location": "Gusev Crater (final position: 'Troy', west of Home Plate in the Columbia Hills)",
+      "coordinates": {
+        "lat": -14.5692,
+        "lon_east": 175.4729,
+        "kind": "landing_site",
+        "precision": "Landing site per NASA. Spirit's final resting place ('Troy') is a few kilometres away.",
+        "source_name": "NASA Science – Spirit",
+        "source_url": "https://science.nasa.gov/mission/mer-spirit/"
+      },
+      "status": "mission_ended",
+      "status_label": "Mission ended — no contact since 22 March 2010",
+      "operational": false,
+      "status_note": "Spirit became stuck in soft sand in 2009 and last communicated on 22 March 2010. NASA ended its recovery efforts on 25 May 2011; the most probable cause of the silence was excessive cold that left its survival heaters ineffective.",
+      "description": "One of NASA's twin Mars Exploration Rovers, sent to investigate the history of water and past environmental conditions.",
+      "story": "Spirit operated far beyond its planned 90-sol mission and uncovered strong evidence that Mars was once much wetter than it is today.",
+      "key_figures": {
+        "designed_sols": 90,
+        "distance_driven_km": 7.73
+      },
+      "timeline": [
+        {
+          "date": "2004-01-04",
+          "kind": "landing",
+          "event": "Spirit lands in Gusev Crater."
+        },
+        {
+          "date": "2010-03-22",
+          "kind": "last_contact",
+          "event": "Last communication received from Spirit."
+        },
+        {
+          "date": "2011-05-25",
+          "kind": "mission_end",
+          "event": "NASA ends efforts to contact the rover."
+        }
+      ],
+      "sources": [
+        {
+          "name": "NASA Science – Spirit",
+          "url": "https://science.nasa.gov/mission/mer-spirit/",
+          "checked": true
+        },
+        {
+          "name": "NASA NTRS – Mars Exploration Rover Spirit End of Mission Report",
+          "url": "https://ntrs.nasa.gov/citations/20160001767",
+          "checked": true
+        }
+      ]
+    },
+    {
+      "id": "opportunity",
+      "name": "Opportunity Rover",
+      "planet": "Mars",
+      "mission": "Mars Exploration Rover",
+      "object_type": "Rover",
+      "category": "rover",
+      "year": 2004,
+      "location": "Meridiani Planum (final position: Perseverance Valley, on the rim of Endeavour crater)",
+      "coordinates": {
+        "lat": -1.9462,
+        "lon_east": -5.5266,
+        "kind": "landing_site",
+        "precision": "Approximate landing site (Eagle crater). Opportunity's final position is several kilometres away.",
+        "source_name": "Wikipedia – Opportunity (rover) infobox (cross-check against NASA/USGS)",
+        "source_url": "https://en.wikipedia.org/wiki/Opportunity_(rover)"
+      },
+      "status": "mission_ended",
+      "status_label": "Mission ended — no contact since 10 June 2018",
+      "operational": false,
+      "status_note": "Opportunity last communicated on 10 June 2018 while a planet-encircling dust storm blocked sunlight to its solar panels. After more than 1,000 recovery commands, NASA declared the mission complete on 13 February 2019.",
+      "description": "Spirit's twin rover, designed to search for evidence of past water on Mars.",
+      "story": "Opportunity was designed for a 90-sol mission but kept exploring Mars for more than 14 years, finding evidence that liquid water had once altered Martian rocks.",
+      "key_figures": {
+        "designed_sols": 90,
+        "distance_driven_km": 45.16
+      },
+      "timeline": [
+        {
+          "date": "2004-01-25",
+          "kind": "landing",
+          "event": "Opportunity lands in Eagle crater, Meridiani Planum (25 January UTC; 24 January in US Pacific time)."
+        },
+        {
+          "date": "2018-06-10",
+          "kind": "last_contact",
+          "event": "Last communication received, from Perseverance Valley, during a global dust storm."
+        },
+        {
+          "date": "2019-02-13",
+          "kind": "mission_end",
+          "event": "NASA declares the Opportunity mission complete."
+        }
+      ],
+      "sources": [
+        {
+          "name": "NASA – Opportunity Rover Mission Comes to End",
+          "url": "https://www.nasa.gov/news-release/nasas-record-setting-opportunity-rover-mission-on-mars-comes-to-end/",
+          "checked": false
+        },
+        {
+          "name": "Wikipedia – Opportunity (rover) (cross-check against NASA)",
+          "url": "https://en.wikipedia.org/wiki/Opportunity_(rover)",
+          "checked": false
+        }
+      ]
+    }
+  ]
+}

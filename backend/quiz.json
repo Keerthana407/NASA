@@ -1,0 +1,179 @@
+{
+  "questions": [
+    {
+      "id": "q-sojourner-sols",
+      "equipment_id": "sojourner",
+      "question": "Sojourner was designed to work for about 7 sols. How many sols did it actually operate?",
+      "options": [
+        {
+          "id": "a",
+          "text": "30"
+        },
+        {
+          "id": "b",
+          "text": "83"
+        },
+        {
+          "id": "c",
+          "text": "180"
+        },
+        {
+          "id": "d",
+          "text": "2,000"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Sojourner was active for 83 sols (about 85 Earth days) before the Pathfinder lander it depended on stopped transmitting."
+    },
+    {
+      "id": "q-opportunity-storm",
+      "equipment_id": "opportunity",
+      "question": "What cut off contact with the Opportunity rover in June 2018?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A global dust storm that blocked its sunlight"
+        },
+        {
+          "id": "b",
+          "text": "It drove into a sand trap"
+        },
+        {
+          "id": "c",
+          "text": "A meteorite strike"
+        },
+        {
+          "id": "d",
+          "text": "A software update"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "A planet-encircling dust storm starved its solar panels of power. NASA declared the mission complete on 13 February 2019."
+    },
+    {
+      "id": "q-apollo17-distance",
+      "equipment_id": "apollo-17-lrv",
+      "question": "Which Apollo lunar rover drove the longest total distance?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Apollo 15"
+        },
+        {
+          "id": "b",
+          "text": "Apollo 16"
+        },
+        {
+          "id": "c",
+          "text": "Apollo 17"
+        },
+        {
+          "id": "d",
+          "text": "They all drove the same distance"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "The Apollo 17 rover covered about 35.9 km, compared with about 27.9 km (Apollo 15) and 26.7 km (Apollo 16)."
+    },
+    {
+      "id": "q-spirit-cause",
+      "equipment_id": "spirit",
+      "question": "What did NASA conclude was the most probable reason Spirit stopped communicating?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A global dust storm"
+        },
+        {
+          "id": "b",
+          "text": "Excessive cold that made its survival heaters ineffective"
+        },
+        {
+          "id": "c",
+          "text": "A broken wheel"
+        },
+        {
+          "id": "d",
+          "text": "A solar flare"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Spirit was stuck in soft sand at a poor angle for the Martian winter. NASA ended recovery efforts on 25 May 2011."
+    },
+    {
+      "id": "q-pathfinder-name",
+      "equipment_id": "mars-pathfinder-lander",
+      "question": "What name was given to the Mars Pathfinder lander after it landed?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Columbia Memorial Station"
+        },
+        {
+          "id": "b",
+          "text": "Carl Sagan Memorial Station"
+        },
+        {
+          "id": "c",
+          "text": "Challenger Station"
+        },
+        {
+          "id": "d",
+          "text": "Eagle Station"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "The lander was renamed the Carl Sagan Memorial Station. Columbia Memorial Station is the name given to Spirit's landing site."
+    },
+    {
+      "id": "q-lrv-first",
+      "equipment_id": "apollo-15-lrv",
+      "question": "On which Apollo mission was the Lunar Roving Vehicle first driven?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Apollo 11"
+        },
+        {
+          "id": "b",
+          "text": "Apollo 14"
+        },
+        {
+          "id": "c",
+          "text": "Apollo 15"
+        },
+        {
+          "id": "d",
+          "text": "Apollo 17"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "Apollo 15 carried the first Lunar Roving Vehicle; later ones flew on Apollo 16 and 17."
+    },
+    {
+      "id": "q-apollo16-crew",
+      "equipment_id": "apollo-16-lrv",
+      "question": "Which astronauts drove the Apollo 16 rover across the Descartes Highlands?",
+      "options": [
+        {
+          "id": "a",
+          "text": "John Young and Charles Duke"
+        },
+        {
+          "id": "b",
+          "text": "David Scott and James Irwin"
+        },
+        {
+          "id": "c",
+          "text": "Neil Armstrong and Buzz Aldrin"
+        },
+        {
+          "id": "d",
+          "text": "Alan Shepard and Edgar Mitchell"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "John Young and Charles Duke explored the Descartes Highlands during Apollo 16 in April 1972."
+    }
+  ]
+}
